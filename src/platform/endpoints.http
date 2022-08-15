@@ -1,0 +1,60 @@
+###
+POST http://localhost:8889/api/code/new
+Content-Type: application/json
+
+{
+  "code": "class Miguel0",
+  "views": 1,
+  "time": 300
+}
+
+
+###
+GET http://localhost:8889/api/code/198b56b8-3729-4c94-bff3-a43d3c30b359
+
+
+###
+POST http://localhost:8889/api/code/new
+Content-Type: application/json
+
+{
+  "code": "class Miguel2"
+}
+
+###
+POST http://localhost:8889/api/code/new
+Content-Type: application/json
+
+{
+  "code": "class Miguel3"
+}
+
+###
+POST http://localhost:8889/api/code/new
+Content-Type: application/json
+
+{
+  "code": "class Miguel4"
+}
+
+###
+POST http://localhost:8889/api/code/new
+Content-Type: application/json
+
+{
+  "code": "class Miguel5"
+}
+
+###
+GET http://localhost:8889/api/code/latest
+
+###
+GET http://localhost:8889/code/latest
+
+
+###
+GET http://localhost:8889/code/9
+
+
+###
+GET http://localhost:8889/code/reset
